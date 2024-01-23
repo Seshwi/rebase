@@ -6,7 +6,7 @@ response =lambda_Client.create_function(
                 'S3Key': 'test.py.zip', #how can i create or fetch this S3Key
             },
 
-            FunctionName='testlambda',
+            FunctionName='testlambda1',
             Handler='index.handler',
             Publish=True,
             Role='arn:aws:iam::880305499190:role/lambda-ec2',
