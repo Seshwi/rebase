@@ -7,7 +7,7 @@ response =lambda_Client.create_function(
             },
 
             FunctionName='testlambda3',
-            Handler='test.index_handler',
+            Handler='test.py.lambda_handler',
             Publish=True,
             Role='arn:aws:iam::880305499190:role/lambda-ec2',
             Runtime='python3.12',
